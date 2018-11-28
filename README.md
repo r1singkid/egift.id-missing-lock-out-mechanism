@@ -1,1 +1,1 @@
-# egift.id-bug
+# egift.id-missing lock out mechanism
