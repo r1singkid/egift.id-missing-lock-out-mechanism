@@ -18,12 +18,6 @@ Here is my finding
 ![alt text](https://github.com/r1singkid/egift.id-missing-lock-out-mechanism/blob/master/running%20and%20found.png)
 
 
-http://egift.id/DU8E16I2827001 
-
-http://egift.id/DU8E16I4527001 
-
-http://egift.id/DU8E16P1350001 
-
 In this case, after doing random curl, I realized that the pattern is
 DU8E16X0000000
 for a voucher worth 100k (Given for Mandir* Fiesta Point). So i just random in that range and found really much voucher.
