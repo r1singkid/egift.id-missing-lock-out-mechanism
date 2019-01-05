@@ -7,11 +7,13 @@ Its actually only 31 lines of code in the core process, but ofcourse I need to d
 
 ![alt text](https://github.com/r1singkid/egift.id-missing-lock-out-mechanism/blob/master/core%20code.png)
 
-This is the second bypass I made for http://www.giftn.id. Basically the curl function above is for crawling giftn.id voucher provider(egif.id) , I found out that there is pattern in the gift voucher url.
+This is the second bypass I made for http://www.giftn.id. Basically the curl function above is for crawling giftn.id voucher provider(egif.id), like what dirbuster do, I make a simple script to crawl random page stored in the website, the server respond that giving its information disclosure itself allow me to easily determind if there is existing voucher in the site.
+
+I found out that there is pattern in the gift voucher url.
 
 ![alt text](https://github.com/r1singkid/egift.id-missing-lock-out-mechanism/blob/master/proccess.png)
 
-Because I used while(true) function, this php script have to be run in php folder in xampp
+Because I used while(true) function, this php script is not suitable for web-based execution
 
 Here is my finding
 
@@ -40,6 +42,5 @@ http://egift.id/DU8E16P3920001
 
 here is the example for trying accessing the found url.
 ![alt text](https://github.com/r1singkid/egift.id-missing-lock-out-mechanism/blob/master/boom.png)
-
 
 
